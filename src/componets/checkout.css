@@ -1,0 +1,21 @@
+/* .checkout {
+  max-height: fit-content;
+} */
+
+.checkout__header {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  max-height: fit-content;
+}
+
+.bannerimg {
+  max-width: 70%;
+  object-fit: contain;
+  flex-grow: 2;
+}
+.productTotal {
+  max-width: 30%;
+  flex-grow: 1;
+  align-self: center;
+}

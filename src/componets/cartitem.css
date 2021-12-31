@@ -1,0 +1,28 @@
+.Item {
+  max-width: 500px;
+  display: flex;
+  margin: 20px;
+  background-color: white;
+}
+
+.Item__img {
+  width: 50%;
+  max-height: 300px;
+  object-fit: contain;
+  /* margin-bottom: 10px; */
+}
+
+.remove__btn {
+  align-self: center;
+  background-color: yellowgreen;
+  color: white;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: none;
+}
+
+.Item__info {
+  margin-top: 20px;
+  margin-left: 10px;
+}
