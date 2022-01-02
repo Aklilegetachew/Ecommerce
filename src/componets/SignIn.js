@@ -23,6 +23,7 @@ function SignIn() {
     const data = await respo.json();
     if (data) {
       alert("Login Sucesfully");
+      // console.log(data);
       window.location.href = "/";
     } else {
       alert("Login failed Check your password and email");

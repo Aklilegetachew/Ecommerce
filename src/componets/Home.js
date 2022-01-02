@@ -1,8 +1,28 @@
+import { Slide } from "@mui/material";
 import React from "react";
 import "./home.css";
 import Products from "./Products";
 
 function Home() {
+  const slider = [
+    {
+      id: 0,
+      url: "https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg",
+    },
+    {
+      id: 1,
+      url: "https://hmloneonta.org/wp-content/uploads/2016/11/amazon-smile-slider.png",
+    },
+    {
+      id: 2,
+      url: "https://images.moneycontrol.com/static-mcnews/2021/07/amazon-prime-770x433.jpg",
+    },
+    {
+      id: 3,
+      url: "https://d2908q01vomqb2.cloudfront.net/77de68daecd823babbb58edb1c8e14d7106e83bb/2020/03/12/Deloitte-AWS-Partners-300x150.jpg",
+    },
+  ];
+
   return (
     <div className="home">
       <img
@@ -10,7 +30,6 @@ function Home() {
         src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
         alt="Amazone background"
       />
-      {/* products */}
       <div className="rowItem">
         <Products
           id="5676522"
@@ -30,7 +49,6 @@ function Home() {
           imgurl="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
         />
       </div>
-
       <div className="rowItem">
         <Products
           id="4903850"
@@ -57,7 +75,6 @@ function Home() {
           imgurl="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
         />
       </div>
-
       <div className="rowItem">
         <Products
           id="90829332"
@@ -68,6 +85,7 @@ function Home() {
           imgurl="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
         />
       </div>
+      
     </div>
   );
 }
